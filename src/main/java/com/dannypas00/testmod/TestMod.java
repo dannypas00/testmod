@@ -1,6 +1,6 @@
 package com.dannypas00.testmod;
 
-import com.dannypas00.testmod.registries.ItemRegister;
+import com.dannypas00.testmod.registerables.registries.ItemRegister;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

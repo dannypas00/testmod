@@ -1,4 +1,4 @@
-package com.dannypas00.testmod.items;
+package com.dannypas00.testmod.registerables.items;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.ItemGroup;

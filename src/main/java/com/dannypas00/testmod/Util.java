@@ -5,7 +5,8 @@ public class Util {
             "Item",
             "Block",
             "BlockItem",
-            "Entity"
+            "Entity",
+            "Weapon"
     };
 
     public static <T> String pathFromClass(Class<T> tClass) {
