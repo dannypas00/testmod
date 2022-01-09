@@ -1,4 +1,4 @@
-package com.dannypas00.testmod.toolmaterials;
+package com.dannypas00.testmod.registerables.toolmaterials;
 
 import com.dannypas00.testmod.registerables.registries.ItemRegister;
 import net.minecraft.item.ToolMaterial;

@@ -1,6 +1,6 @@
 package com.dannypas00.testmod.registerables.tools.weapons;
 
-import com.dannypas00.testmod.toolmaterials.SilverToolMaterial;
+import com.dannypas00.testmod.registerables.toolmaterials.SilverToolMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.ItemGroup;
 

@@ -3,5 +3,10 @@
   "item.testmod.silver_sword": "Silver sword",
   "item.testmod.silver_axe": "Silver axe",
   "item.testmod.silver_hoe": "Silver hoe",
-  "item.testmod.silver_shovel": "Silver shovel"
+  "item.testmod.silver_pickaxe": "Silver pickaxe",
+  "item.testmod.silver_shovel": "Silver shovel",
+  "item.testmod.silver_helmet": "Silver helmet",
+  "item.testmod.silver_chestplate": "Silver chestplate",
+  "item.testmod.silver_leggings": "Silver leggings",
+  "item.testmod.silver_boots": "Silver boots"
 }
