@@ -1,4 +1,7 @@
 {
   "item.testmod.silver_ingot": "Silver ingot",
-  "item.testmod.silver_sword": "Silver sword"
+  "item.testmod.silver_sword": "Silver sword",
+  "item.testmod.silver_axe": "Silver axe",
+  "item.testmod.silver_hoe": "Silver hoe",
+  "item.testmod.silver_shovel": "Silver shovel"
 }

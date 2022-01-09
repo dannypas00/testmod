@@ -1,6 +1,8 @@
 package com.dannypas00.testmod;
 
 import com.dannypas00.testmod.registerables.registries.ItemRegister;
+import com.dannypas00.testmod.registerables.registries.ToolMaterialRegister;
+import com.dannypas00.testmod.registerables.registries.ToolRegister;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -20,5 +22,7 @@ public class TestMod implements ModInitializer {
 		LOGGER.info(String.format("Hello from %s", ModInfo.MOD_ID));
 
 		ItemRegister.register();
+		ToolRegister.register();
+		ToolMaterialRegister.register();
 	}
 }

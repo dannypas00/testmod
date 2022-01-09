@@ -6,6 +6,7 @@ public class Util {
             "Block",
             "BlockItem",
             "Entity",
+            "Tool",
             "Weapon"
     };
 
