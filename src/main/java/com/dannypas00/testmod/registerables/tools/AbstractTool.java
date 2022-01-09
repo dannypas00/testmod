@@ -13,10 +13,6 @@ public abstract class AbstractTool extends ToolItem {
     }
 
     public void register() {
-        Registry.register(Registry.ITEM, this.getIdentifier(), this);
-    }
-
-    public Identifier getIdentifier() {
-        return new Identifier(ModInfo.MOD_ID, Util.pathFromClass(this.getClass()));
+        Registry.register(Registry.ITEM, Util.createIdentifierFromClass(this.getClass()), this);
     }
 }

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:silver_ore",
+    "testmod:silver_block"
+  ]
+}

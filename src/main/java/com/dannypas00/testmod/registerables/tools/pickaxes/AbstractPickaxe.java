@@ -1,10 +1,10 @@
 package com.dannypas00.testmod.registerables.tools.pickaxes;
 
-import com.dannypas00.testmod.ModInfo;
 import com.dannypas00.testmod.Util;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.*;
-import net.minecraft.util.Identifier;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ToolMaterial;
 import net.minecraft.util.registry.Registry;
 
 public abstract class AbstractPickaxe extends PickaxeItem {
@@ -15,10 +15,6 @@ public abstract class AbstractPickaxe extends PickaxeItem {
     }
 
     public PickaxeItem register() {
-        return Registry.register(Registry.ITEM, this.getIdentifier(), this);
-    }
-
-    public Identifier getIdentifier() {
-        return new Identifier(ModInfo.MOD_ID, Util.pathFromClass(this.getClass()));
+        return Registry.register(Registry.ITEM, Util.createIdentifierFromClass(this.getClass()), this);
     }
 }

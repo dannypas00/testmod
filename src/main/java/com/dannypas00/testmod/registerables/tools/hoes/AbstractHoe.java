@@ -15,10 +15,6 @@ public abstract class AbstractHoe extends HoeItem {
     }
 
     public HoeItem register() {
-        return Registry.register(Registry.ITEM, this.getIdentifier(), this);
-    }
-
-    public Identifier getIdentifier() {
-        return new Identifier(ModInfo.MOD_ID, Util.pathFromClass(this.getClass()));
+        return Registry.register(Registry.ITEM, Util.createIdentifierFromClass(this.getClass()), this);
     }
 }

@@ -23,5 +23,8 @@ public class TestMod implements ModInitializer {
 
 		ToolRegister.register();
 		ArmorRegister.register();
+
+		BlockRegister.register();
+		BlockItemRegister.register();
 	}
 }

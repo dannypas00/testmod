@@ -8,5 +8,8 @@
   "item.testmod.silver_helmet": "Silver helmet",
   "item.testmod.silver_chestplate": "Silver chestplate",
   "item.testmod.silver_leggings": "Silver leggings",
-  "item.testmod.silver_boots": "Silver boots"
+  "item.testmod.silver_boots": "Silver boots",
+  "item.testmod.silver_raw_ore": "Raw silver",
+  "block.testmod.silver_ore": "Silver ore",
+  "block.testmod.silver_block": "Silver block"
 }

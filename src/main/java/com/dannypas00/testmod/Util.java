@@ -1,5 +1,7 @@
 package com.dannypas00.testmod;
 
+import net.minecraft.util.Identifier;
+
 public class Util {
     private static final String[] excludedSuffixFromNamespace = new String[]{
             "Item",
@@ -17,9 +19,22 @@ public class Util {
         return stringToSnake(className);
     }
 
+    public static <T> Identifier createIdentifierFromClass(Class<T> tClass) {
+        String path = pathFromClass(tClass);
+        return new Identifier(ModInfo.MOD_ID, path);
+    }
+
+    public static <T> Identifier createIdentifierFromClass(Class<T> tClass, boolean plural) {
+        String path = pathFromClass(tClass);
+        if (plural) {
+            path += "s";
+        }
+        return new Identifier(ModInfo.MOD_ID, path);
+    }
+
     private static String removeExcludedSuffix(String className) {
         String excludeString = String.join("|", excludedSuffixFromNamespace);
-        String excludeRegex = String.format("(%s)$", excludeString);
+        String excludeRegex  = String.format("(%s)$", excludeString);
         return className.replaceAll(excludeRegex, "");
     }
 
